@@ -26,16 +26,16 @@ Fakerjp::VERSION #=> 0.1.1
 ```
 ### Fakerjp::People
 ```ruby
-# 苗字データの生成
+# Generate a random last name / 苗字データの生成
 Fakerjp::People.last_name #=> 山田
-# 名前データの生成
+# Generate a random first name / 名前データの生成
 Fakerjp::People.first_name #=> 詩織
-# フルネームデータの生成
+# Generate a random full name / フルネームデータの生成
 Fakerjp::People.full_name #=> 中村陸
 ```
 ### Fakerjp::Geography
 ```ruby
-# 都道府県データの生成
+# Generate a random prefecture / 都道府県データの生成
 Fakerjp::Geography.prefecture #=> 北海道
 ```
 
